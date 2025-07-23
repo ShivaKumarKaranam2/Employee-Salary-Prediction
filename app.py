@@ -147,7 +147,7 @@ if st.button("Predict Salary"):
             if 'model' in locals(): # Check if the model was loaded successfully
                 try:
                     prediction = model.predict(preprocessed_df)[0]
-                    st.success(f"**Predicted Salary:**{prediction:,.2f}INR")
+                    st.success(f"**Predicted Salary:** {prediction:,.2f}INR")
                 except Exception as e:
                     st.error(f"Error during prediction: {e}")
             else:
