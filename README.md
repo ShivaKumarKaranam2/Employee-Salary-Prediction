@@ -17,8 +17,8 @@
 
 ## 📈 Results
 
-- **Best Model:** XGBoost Regressor
-- **R² Score:** ~0.93
+- **Best Model:** Random Forest Regressor
+- **R² Score:** ~0.97
 - **Key Insight:** Experience and Job Title significantly influence salary.
 
 📷 Visualizations and metrics are available inside the notebook.
